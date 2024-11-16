@@ -123,16 +123,3 @@ Visit `/admin` to view hardcoded admin passwords, simulating poor security pract
 
 ### 4. **Trusting Malicious Inputs**  
 Send a crafted JSON payload to `/external` to demonstrate the risks of blindly trusting user input.
-
----
-
-## **Warnings and Notes**  
-
-1. **DO NOT DEPLOY IN PRODUCTION**  
-   This API is intentionally insecure and must not be used in a live environment.  
-
-2. **USE FOR LEARNING ONLY**  
-   The sole purpose is to demonstrate why certain coding practices are unsafe.  
-
-3. **LEGAL DISCLAIMER**  
-   Any misuse of this API, such as using it for unauthorized attacks, is strictly prohibited and may violate laws.  
