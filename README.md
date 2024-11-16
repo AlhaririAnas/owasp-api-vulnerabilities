@@ -1,4 +1,3 @@
-```markdown
 # Insecure API for Educational Purposes  
 
 This project is a deliberately insecure API designed to demonstrate common security vulnerabilities outlined in the OWASP API Top 10. The API should **only** be used for learning purposes and must **never** be deployed in a production environment.
