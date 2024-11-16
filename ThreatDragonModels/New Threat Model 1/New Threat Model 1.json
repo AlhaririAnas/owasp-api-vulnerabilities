@@ -23,12 +23,12 @@
         "cells": [
           {
             "position": {
-              "x": 230,
-              "y": 90
+              "x": 202.5,
+              "y": 90.00000000000003
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 140,
+              "height": 74.66666666666666
             },
             "attrs": {
               "text": {
@@ -42,6 +42,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -125,7 +126,6 @@
               ]
             },
             "id": "9e5f7c52-87fe-4146-9a77-d4e2986d786f",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "User (Browser/App)",
@@ -157,12 +157,12 @@
           },
           {
             "position": {
-              "x": 509,
+              "x": 459,
               "y": 90
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 110,
+              "height": 110
             },
             "attrs": {
               "text": {
@@ -176,6 +176,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -259,7 +260,6 @@
               ]
             },
             "id": "2a896e99-55da-4ef2-93d5-cc0bf5106723",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Flask API Server",
@@ -298,12 +298,12 @@
           },
           {
             "position": {
-              "x": 630,
-              "y": 170
+              "x": 750,
+              "y": 210
             },
             "size": {
-              "width": 120,
-              "height": 60
+              "width": 170,
+              "height": 85
             },
             "attrs": {
               "text": {
@@ -320,6 +320,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -403,7 +404,6 @@
               ]
             },
             "id": "482adef8-c3ef-4451-b61d-04b60afff6d7",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "External Server (SSRF)",
@@ -421,12 +421,12 @@
           },
           {
             "position": {
-              "x": 360,
+              "x": 300,
               "y": 310
             },
             "size": {
-              "width": 120,
-              "height": 60
+              "width": 180,
+              "height": 90
             },
             "attrs": {
               "text": {
@@ -445,6 +445,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -528,7 +529,6 @@
               ]
             },
             "id": "d65ca604-f71d-47c9-b2f8-7097d3302e42",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "Database (Credentials)",
