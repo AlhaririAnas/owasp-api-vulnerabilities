@@ -136,5 +136,3 @@ Send a crafted JSON payload to `/external` to demonstrate the risks of blindly t
 
 3. **LEGAL DISCLAIMER**  
    Any misuse of this API, such as using it for unauthorized attacks, is strictly prohibited and may violate laws.  
-
-```
