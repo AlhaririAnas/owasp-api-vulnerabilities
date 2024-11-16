@@ -23,8 +23,8 @@
         "cells": [
           {
             "position": {
-              "x": 152.5,
-              "y": 90.00000000000003
+              "x": 200,
+              "y": 210
             },
             "size": {
               "width": 140,
@@ -157,8 +157,8 @@
           },
           {
             "position": {
-              "x": 489,
-              "y": 70
+              "x": 539,
+              "y": 192.33333333333331
             },
             "size": {
               "width": 110,
@@ -298,8 +298,8 @@
           },
           {
             "position": {
-              "x": 850,
-              "y": 240
+              "x": 890,
+              "y": 204.83333333333331
             },
             "size": {
               "width": 170,
@@ -421,8 +421,8 @@
           },
           {
             "position": {
-              "x": 320,
-              "y": 360
+              "x": 504,
+              "y": 430
             },
             "size": {
               "width": 180,
@@ -562,6 +562,202 @@
                 "informationDisclosure": 5,
                 "denialOfService": 1
               }
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request",
+              "description": "Represents all requests that the user sends to the server, such as logins, data entries or API calls.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Request"
+            ],
+            "id": "9bdad69b-f2cc-442d-954a-a8585fa75864",
+            "source": {
+              "cell": "9e5f7c52-87fe-4146-9a77-d4e2986d786f"
+            },
+            "target": {
+              "cell": "2a896e99-55da-4ef2-93d5-cc0bf5106723"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "b7a232d4-8a42-40c3-8eed-7cbd8ab30eab",
+            "source": {
+              "cell": "2a896e99-55da-4ef2-93d5-cc0bf5106723"
+            },
+            "target": {
+              "cell": "9e5f7c52-87fe-4146-9a77-d4e2986d786f"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request/ Response",
+              "description": "Represents all requests that the user sends to the server, such as logins, data entries, or API calls.\n",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": []
+            },
+            "labels": [
+              "Request/ Response"
+            ],
+            "id": "03823b03-b9de-4854-939b-327d53f3282d",
+            "source": {
+              "cell": "9e5f7c52-87fe-4146-9a77-d4e2986d786f"
+            },
+            "target": {
+              "cell": "2a896e99-55da-4ef2-93d5-cc0bf5106723"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Query",
+              "description": "Represents database queries initiated by the API server to fetch or store user data.\n",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "SQL",
+              "threats": []
+            },
+            "labels": [
+              "Query"
+            ],
+            "id": "d5f1734f-146a-485d-b6a2-c8da75e9e00e",
+            "source": {
+              "cell": "2a896e99-55da-4ef2-93d5-cc0bf5106723"
+            },
+            "target": {
+              "cell": "d65ca604-f71d-47c9-b2f8-7097d3302e42"
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "External Trust Boundary",
+              "description": "This boundary represents the transition from the internal, trusted environment (Flask API Server) to an external, untrusted system managed by third parties. Any data crossing this boundary must be sanitized and validated to mitigate risks such as SSRF, data leakage, or unauthorized access.",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "External Trust Boundary"
+            ],
+            "id": "70f21737-071e-4f94-82d5-3b6707d23e9b",
+            "source": {
+              "x": 890,
+              "y": 250
+            },
+            "target": {
+              "cell": "2a896e99-55da-4ef2-93d5-cc0bf5106723",
+              "port": "8ae2c4f1-cd4e-478b-9690-2403b956d0b0"
             }
           }
         ]
